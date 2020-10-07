@@ -1,4 +1,4 @@
-# vim-monokai-pro
+# vim-monokai-juicy
 
 Monokai Pro color scheme for Vim / Neovim. Inspired by https://www.monokai.pro/.
 
@@ -7,19 +7,19 @@ Monokai Pro color scheme for Vim / Neovim. Inspired by https://www.monokai.pro/.
 - You might need install: https://github.com/sheerun/vim-polyglot to have better syntax highlight.
 
 - Plugin managers: [vim-plug](https://github.com/junegunn/vim-plug):
-  + Add `Plug 'phanviet/vim-monokai-pro'` to your `init.vim` (Neovim) or `.vimrc` (Vim) file.
+  + Add `Plug 'phanviet/vim-monokai-juicy'` to your `init.vim` (Neovim) or `.vimrc` (Vim) file.
   + Run `:PlugInstall` after resourcing/relaunching.
 
-- Manual install. Move `monokai_pro.vim` to runtime path directory:
+- Manual install. Move `monokai_juicy.vim` to runtime path directory:
   + Neovim:
 	``` bash
 	cd phanviet/colors
-	mv monokai_pro.vim ~/.config/nvim/colors
+	mv monokai_juicy.vim ~/.config/nvim/colors
 	```
   + Vim:
 	``` bash
 	cd phanviet/colors
-	mv monokai_pro.vim ~/.vim/colors
+	mv monokai_juicy.vim ~/.vim/colors
 	```
 
 ## Usage
@@ -28,13 +28,13 @@ After the installation, configure it as your colorscheme by putting the followin
 
 ``` bash
 set termguicolors
-colorscheme monokai_pro
+colorscheme monokai_juicy
 ```
 
 lightline
 ```bash
 let g:lightline = {
-      \ 'colorscheme': 'monokai_pro',
+      \ 'colorscheme': 'monokai_juicy',
       \ }
 ```
 ## Screenshots
